@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -18,7 +19,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 50px;
-    background: transparent;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +52,7 @@ nav a.active{
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background: url("photos/New\ Project.png") no-repeat;
+    background: url("photos/background.png") no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -79,7 +80,6 @@ nav a.active{
 
 
 .btn a{
-    
     display: inline-flex;
     width: 40px;
     height: 40px;
@@ -95,4 +95,9 @@ nav a.active{
 
 .btn a:hover{
     color :#00abf0;
+}
+
+#skills{
+    width: 100%;
+    height: 100vh;
 }
